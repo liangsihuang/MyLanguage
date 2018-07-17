@@ -32,13 +32,13 @@
 
 类的方法实现： cpp 文件
 
-导入 \#include &lt;mmm.h&gt;
+导入头文件
 
-* 编译器中的类库路径
+*  \#include &lt;mmm.h&gt;     优先编译器中的类库路径
 
-导入 \#include "mmm.h"
+* \#include "mmm.h"        优先当前目录
 
-* 当前目录
+
 
 
 
