@@ -34,13 +34,14 @@
 
 导入头文件
 
-* \#include &lt;mmm.h&gt;     优先编译器中的类库路径，比如： \#include &lt;Vector.h&gt;
+* \#include &lt;mmm.h&gt;     优先编译器中的类库路径
 
 * \#include "mmm.h"        优先当前目录
 
-为什么自定义类不需要include，只需要提前声明？
+为什么有些自定义类不需要include，只需要提前声明？而有些\(比较基础的?\)自定义类需要 include
 
 * 比如： Class Element; 
+* 比如： \#include &lt;Vector.h&gt;
 
 
 
