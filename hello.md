@@ -10,5 +10,13 @@
 
 * 模块：classLib.py
 
-类库：`from classLib(filename) import Equation(classname)`
+类库：
+
+* 普通目录      `from classLib(filename) import Equation(classname) `  
+
+* 包         `from MyPackage.classLib(filename) import Equation(classname) `
+
+
+
+
 
