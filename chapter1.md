@@ -6,7 +6,9 @@ c++ 称为容器 container
 
 类似还有：Vector, Grid, Stack, Queue, Set
 
-声明： Map&lt;int&gt; theMap;
+声明： Map&lt;int, ClassName&gt; theMap;
+
+* key 的类型是 int , value 的类型是 某个 class
 
 运算符被重载
 
@@ -16,8 +18,6 @@ c++ 称为容器 container
 
 * Map&lt;int&gt; :: Iterator
 
-key 一定是 字符串
-
 相当于 python 的 dict
 
 ### Vector
@@ -25,6 +25,4 @@ key 一定是 字符串
 声明： Vector&lt;int&gt; theVector;
 
 相当于 python 的 列表 list
-
-
 
