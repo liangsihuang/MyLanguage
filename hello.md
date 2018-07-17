@@ -38,9 +38,12 @@
 
 * \#include "mmm.h"        优先当前目录
 
-为什么有些自定义类不需要include，只需要提前声明？而有些\(比较基础的?\)自定义类需要 include
+在自定义类的头文件不需要include，只需要声明；如果是STL里的类，比如map，声明都不用
 
 * 比如： Class Element; 
+
+在自定义类的cpp文件需要 include
+
 * 比如： \#include &lt;Vector.h&gt;
 
 
