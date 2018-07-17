@@ -1,8 +1,8 @@
 # Data Structure
 
-### c++ : map
+### Map
 
-c++ 成为容器 container
+c++ 称为容器 container
 
 类似还有：Vector, Grid, Stack, Queue, Set
 
@@ -16,13 +16,15 @@ c++ 成为容器 container
 
 * Map&lt;int&gt; :: Iterator
 
-key 一定是 字符串 
+key 一定是 字符串
 
+相当于 python 的 dict
 
+### Vector
 
-### python: dict
+声明： Vector&lt;int&gt; theVector;
 
-
+相当于 python 的 列表 list
 
 
 
