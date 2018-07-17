@@ -14,7 +14,7 @@
 
 类库：
 
-* 普通目录      `from classLib(filename) import Equation(classname)`
+* 普通目录      `from 当前目录某文件夹.classLib(filename) import Equation(classname)`
 
 * 包         `from MyPackage.classLib(filename) import Equation(classname)`
 
