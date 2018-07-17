@@ -34,11 +34,13 @@
 
 导入头文件
 
-*  \#include &lt;mmm.h&gt;     优先编译器中的类库路径
+* \#include &lt;mmm.h&gt;     优先编译器中的类库路径，比如： \#include &lt;Vector.h&gt;
 
 * \#include "mmm.h"        优先当前目录
 
+为什么自定义类不需要include，只需要提前声明？
 
+* 比如： Class Element; 
 
 
 
