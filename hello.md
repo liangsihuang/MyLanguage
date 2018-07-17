@@ -21,7 +21,7 @@
 模块搜索路径：
 
 * sys.path
-* 一般是：当前目录
+* 包括：当前目录
 * 添加     sys.path.append\( '.../my\_py' \)
 
 ### C++ : h file
