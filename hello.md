@@ -1,4 +1,6 @@
-# Module
+# 模块化
+
+### Python : module
 
 一个`. py` 文件就是一个模块 module
 
@@ -12,11 +14,14 @@
 
 类库：
 
-* 普通目录      `from classLib(filename) import Equation(classname) `  
+* 普通目录      `from classLib(filename) import Equation(classname)`
 
-* 包         `from MyPackage.classLib(filename) import Equation(classname) `
+* 包         `from MyPackage.classLib(filename) import Equation(classname)`
 
+模块搜索路径：
 
+* sys.path
+* 一般是：当前目录
 
 
 
