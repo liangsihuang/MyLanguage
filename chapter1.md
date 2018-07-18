@@ -61,9 +61,7 @@ key 必须是不可变的数据类型：int, string
 
 快速返回值：d\[key\]
 
-返回指定key的值：d.get\(key, defalut=0\) ，没找到返回0
+更安全地返回指定key的值：d.get\(key, defalut=0\) ，没找到返回0
 
-key存在否：d.has\_key\(key\)，存在返回 true，否则返回false
-
-
+key存在否：d.\_\_contains\_\_\(key\)，存在返回 true，否则返回false
 
