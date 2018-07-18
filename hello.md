@@ -24,13 +24,15 @@
 * 包括：当前目录
 * 添加     sys.path.append\( '.../my\_py' \)
 
-### C++ : h file
+### C++ : h file + library
 
 类的接口： h 文件
 
 * 内联函数可以在 h 文件实现
 
 类的方法实现： cpp 文件
+
+* cpp 文件被编译后成为 library \( .lib 文件\)
 
 导入头文件
 

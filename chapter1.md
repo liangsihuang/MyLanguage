@@ -1,28 +1,49 @@
 # Data Structure
 
+### C++ container
+
+常用自定义的容器类： Vector , Map
+
+ 类的定义才用 模板 template
+
+```cpp
+template <typename ElemType>
+class Vector {
+    public:
+        Vector();
+        ~Vector();
+        
+        ElemType getAt(int index);
+        ...
+}
+```
+
+调用时声明模板对应的类型：`Vector<int> list`
+
+只能存放和声明的同一类型的数据，否则报错 （称为 type-safe）
+
 ### Map
 
-c++ 称为容器 container
+key - value 都采用 template，调用时都需要声明
 
-类似还有：Vector, Grid, Stack, Queue, Set
-
-声明： Map&lt;int, ClassName&gt; theMap;
+调用： Map&lt;int, ClassName&gt; theMap;
 
 * key 的类型是 int , value 的类型是 某个 class
 
-运算符被重载
+方法：
 
 * 某个元素：theMap\[ 'key' \]
 
 遍历采用迭代器 iterator
 
-* Map&lt;int&gt; :: Iterator
+* 迭代器是 container 类中定义的类 \(称为：nested class/type\)
+* 相当于一个有方法的指针
 
-相当于 python 的 dict
+* 调用：` Map<int, ClassName> :: Iterator it = theMap.iterator();`
 
-### Vector
 
-声明： Vector&lt;int&gt; theVector;
 
-相当于 python 的 列表 list
+
+
+
 
