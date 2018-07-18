@@ -5,4 +5,5 @@
 * [模块化](hello.md)
 * [继承](ji-cheng.md)
 * [constructor](constructor.md)
+* [private](private.md)
 
