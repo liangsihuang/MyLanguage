@@ -49,5 +49,21 @@ key - value 都采用 template，调用时都需要声明
 
 * it 的类型是 Map&lt;int, ClassName&gt;:: iterator
 
+### python 字典 dict
+
+key 必须是不可变的数据类型：int, string
+
+调用：
+
+* d = {}
+* d = { key : value }
+* d\[key\] = value
+
+快速返回值：d\[key\]
+
+查找并返回：d.get\(key, defalut=0\)
+
+
+
 
 
