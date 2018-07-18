@@ -7,4 +7,5 @@
 * [constructor](constructor.md)
 * [private](private.md)
 * [const](classtag.md)
+* [function](function.md)
 

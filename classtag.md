@@ -10,3 +10,9 @@ classTag 是常量
 
 
 
+const 作用：使之不能被修改
+
+* 不能修改的变量： `const int NUMBER = 4; `
+* 
+
+
