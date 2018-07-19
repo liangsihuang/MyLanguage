@@ -2,9 +2,7 @@
 
 `LinearSOE * theSOE = new BandSPDLinSOE( * theSolver);`
 
-
-
-### C++
+### C++ inheritance and derived class
 
 默认是 public 继承 `class DeriveClassName : public BaseClassName {}`
 
@@ -22,6 +20,20 @@
 成员函数可以覆盖，覆盖以后还可以调用基类的同名函数
 
 * `BaseClassName:: Func`
+
+### C++ polymorphism
+
+多态的实现：虚函数
+
+1. 编译时给有虚函数的对象增加一个4字节的指针，指向该类（基类）的虚函数表，虚函数表存放该类所有虚函数的地址
+2. 编译时不确定调用基类还是某一个派生类的函数
+3. 运行时，将某派生类的对象赋值给基类对象，则调用该派生类的函数
+4. 运行时，将基类的对象赋值给基类，则调用基类的函数
+5. 如果把基类设置为纯虚类（包含纯虚函数），没有4，基类变成只是提供接口
+
+多态的弊端：增加运行时的时间（查虚函数表）和空间（存储4字节的指针）开销
+
+
 
 ### 多继承
 
