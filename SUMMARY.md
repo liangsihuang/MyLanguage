@@ -8,4 +8,5 @@
 * [private](private.md)
 * [const](classtag.md)
 * [function](function.md)
+* [void](void.md)
 
