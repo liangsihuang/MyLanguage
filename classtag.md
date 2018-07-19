@@ -8,7 +8,7 @@ classTag 是常量
 #define NOD_TAG_Node 1
 ```
 
-const 作用：使之不能被修改
+### const: c++关键字
 
 常变量
 
