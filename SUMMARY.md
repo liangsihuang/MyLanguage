@@ -1,12 +1,12 @@
 # Summary
 
 * [Introduction](README.md)
-* [data structure](chapter1.md)
-* [module](hello.md)
-* [inheritance](ji-cheng.md)
+* [data structure](datastructure.md)
+* [module](module.md)
+* [inheritance](inheritance.md)
 * [constructor](constructor.md)
 * [private](private.md)
-* [const](classtag.md)
+* [const](const.md)
 * [function](function.md)
 * [void](void.md)
 
