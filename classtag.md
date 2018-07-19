@@ -8,11 +8,19 @@ classTag 是常量
 #define NOD_TAG_Node 1
 ```
 
-
-
 const 作用：使之不能被修改
 
-* 不能修改的变量： `const int NUMBER = 4; `
-* 
+常变量
+
+* 不能修改的变量： `const int NUMBER = 4;`
+
+常引用
+
+* 不能修改的引用
+
+* 作为函数参数，传入后不能修改
+
+* 作为函数返回值不能修改（类似：python 返回值为 tuple，不能修改）
+
 
 
