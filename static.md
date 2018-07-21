@@ -28,7 +28,7 @@
 
 ### python 类变量
 
-python 没有 static 
+python 没有 static
 
 类变量类似静态成员变量
 
@@ -41,15 +41,9 @@ python 没有 static
           pass
   ```
 
-调用：只能通过类名
+调用：只能通过类名（对象名好像也可以，但不要用）
 
 * className.clsvar = 0
-
-
-
-
-
-
 
 
 
