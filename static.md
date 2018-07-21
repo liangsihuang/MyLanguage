@@ -26,6 +26,27 @@
 
 静态成员变量要单独声明一下，可以不初始化。否则编译能通过，连接不能！什么意思？？？
 
+### python 类变量
+
+python 没有 static 
+
+类变量类似静态成员变量
+
+定义：在函数外，不用 self
+
+* ```py
+  class className(object):
+      clsvar = 1
+      def __init__():
+          pass
+  ```
+
+调用：只能通过类名
+
+* className.clsvar = 0
+
+
+
 
 
 
