@@ -28,11 +28,9 @@
 
 ### python 类变量
 
-python 没有 static
+python 没有 static，类变量类似静态成员变量
 
-类变量类似静态成员变量
-
-定义：在函数外，不用 self
+定义：在函数外，不用 self \(self 就是代表对象\)
 
 * ```py
   class className(object):
