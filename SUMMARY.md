@@ -9,4 +9,5 @@
 * [const](const.md)
 * [function](function.md)
 * [void](void.md)
+* [static](static.md)
 
