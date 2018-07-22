@@ -65,14 +65,12 @@ key 必须是不可变的数据类型：int, string
 
 key存在否：d.\_\_contains\_\_\(key\)，存在返回 true，否则返回false
 
-遍历：像列表一样可以？
+遍历：items\(\)方法
 
 ```py
-for i in dictName:
-    print(dictName[i])
+for k, v in dictName。items():
+    print(k, v)
 ```
-
-
 
 ### python 列表 list
 
