@@ -61,7 +61,15 @@ key 必须是不可变的数据类型：int, string
 
 快速返回值：d\[key\]
 
-更安全地返回指定key的值：d.get\(key, defalut=0\) ，没找到返回0
+* 如果没找到，会调用自定义的missing方法
+* ```py
+  def __missing__(self, key):
+      return 0
+  ```
+
+* 如果不定义，没找到就会报错！
+
+更安全地返回指定key的值：d.get\(key, defalut=0\) ，没找到返回0，如果不给defalut，默认default为None
 
 key存在否：d.\_\_contains\_\_\(key\)，存在返回 true，否则返回false
 
