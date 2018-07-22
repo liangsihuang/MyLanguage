@@ -65,6 +65,15 @@ key 必须是不可变的数据类型：int, string
 
 key存在否：d.\_\_contains\_\_\(key\)，存在返回 true，否则返回false
 
+遍历：像列表一样可以？
+
+```py
+for i in dictName:
+    print(dictName[i])
+```
+
+
+
 ### python 列表 list
 
 range\(start, end, step\) 返回一个列表
@@ -75,6 +84,4 @@ range\(start, end, step\) 返回一个列表
 * 常用： `for i in range(1,10)` 1到9
 
 len\(\)：返回个数，有5个元素，下标到4，但返回5
-
-
 
