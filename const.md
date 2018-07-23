@@ -8,9 +8,27 @@ classTag 是常量
 #define NOD_TAG_Node 1
 ```
 
+### define 
+
+定义真正的常量，在预处理\(编译前\)过程中进行替换
+
+在头文件\(classTag.h\)中定义，开头和结尾加预处理指令
+
+```cpp
+#ifndef classTags_h
+#define classTags_h
+
+#define intType 1
+...
+
+#endif
+```
+
+实际是定义宏，所以不需要在别的文件 include ， 对吗？
+
 ### const: c++关键字
 
-常变量
+常变量（作为新的变量类型）
 
 * 不能修改的变量： `const int NUMBER = 4;`
 
@@ -32,8 +50,6 @@ classTag 是常量
 * 不能修改其作用的对象，主要是不能修改成员变量
 * 非常量成员函数也不能调用（因为可能修改成员变量）
 * 静态成员变量和静态成员函数都可以用，因为不属于对象
-
-
 
 
 
