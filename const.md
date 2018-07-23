@@ -1,6 +1,4 @@
-为每一个类添加一个 classTag 有什么用？
-
-classTag 是常量
+为每一个类添加一个 classTag 有什么用？ classTag 是常量
 
 比如：对于 Node 类
 
@@ -8,9 +6,9 @@ classTag 是常量
 #define NOD_TAG_Node 1
 ```
 
-### define 
+### define
 
-定义真正的常量，在预处理\(编译前\)过程中进行替换
+定义真正的常量\(而不是常变量\)，在预处理\(编译前\)过程中进行替换
 
 在头文件\(classTag.h\)中定义，开头和结尾加预处理指令
 
