@@ -1,5 +1,20 @@
 # Data Structure
 
+### C++  array
+
+指针数组，也可以用 `[]` 索引
+
+```cpp
+int *arr = new int[10];
+
+for(int i=0; i<10; i++)
+    arr[i] = i
+    
+delete[] arr;
+```
+
+
+
 ### C++ container
 
 常用自定义的容器类： Vector , Map
@@ -66,7 +81,6 @@ key 必须是不可变的数据类型：int, string
   def __missing__(self, key):
       return 0
   ```
-
 * 如果不定义，没找到就会报错！
 
 更安全地返回指定key的值：d.get\(key, defalut=0\) ，没找到返回0，如果不给defalut，默认default为None
