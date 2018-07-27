@@ -9,11 +9,9 @@ int *arr = new int[10];
 
 for(int i=0; i<10; i++)
     arr[i] = i
-    
+
 delete[] arr;
 ```
-
-
 
 ### C++ container
 
@@ -104,4 +102,22 @@ range\(start, end, step\) 返回一个列表
 * 常用： `for i in range(1,10)` 1到9
 
 len\(\)：返回个数，有5个元素，下标到4，但返回5
+
+### numpy 矩阵类ndarray
+
+类的名字是ndarray，其中有一个方法叫array（代替构造函数）
+
+```py
+import numpy as np
+a = array([1，2，3])
+
+```
+
+参数是一个列表
+
+* 向量：a = array\(\[1, 2, 3\]\)
+
+* 矩阵：b = array\(\[ \[1, 2, 3\], \[3, 2, 1\] \]\)
+
+
 
