@@ -120,7 +120,5 @@ a = np.array([1，2，3])
 
 限定数据类型：a = np.array\(\[1,2\], np.int\)
 
-0矩阵：a = np.zeros\( \(2, \), dtype=int\) 
-
-
+全0列向量阵：a = np.zeros\( \(2, \), dtype=int \)
 
