@@ -92,6 +92,8 @@ for k, v in dictName。items():
     print(k, v)
 ```
 
+元素个数：len\(\)
+
 ### python 列表 list
 
 range\(start, end, step\) 返回一个列表
