@@ -105,6 +105,8 @@ range\(start, end, step\) 返回一个列表
 
 len\(\)：返回个数，有5个元素，下标到4，但返回5
 
+append\(\)：在末尾添加
+
 ### numpy 矩阵类ndarray
 
 类的名字是ndarray，其中有一个方法叫array（代替构造函数）
