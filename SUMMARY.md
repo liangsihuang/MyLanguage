@@ -11,4 +11,5 @@
 * [void](void.md)
 * [static](static.md)
 * [overload](overload.md)
+* [operator](operator.md)
 
