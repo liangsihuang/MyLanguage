@@ -1,6 +1,6 @@
-# Data Structure
+# data structure
 
-### C++  array
+## C++  array
 
 指针数组，也可以用 `[]` 索引
 
@@ -13,7 +13,7 @@ for(int i=0; i<10; i++)
 delete[] arr;
 ```
 
-### C++ container
+## C++ container
 
 常用自定义的容器类： Vector , Map
 
@@ -35,7 +35,7 @@ class Vector {
 
 只能存放和声明的同一类型的数据，否则报错 （称为 type-safe）
 
-### Map
+## Map
 
 map 里的每个元素是 pair 类
 
@@ -57,12 +57,10 @@ key - value 都采用 template，调用时都需要声明
 
 * 迭代器是 container 类中定义的类 \(称为：nested class/type\)
 * 可以看作一个有方法的指针？
-
 * 调用：`Map<int, ClassName> :: iterator it = theMap.iterator();`
-
 * it 的类型是 Map&lt;int, ClassName&gt;:: iterator
 
-### python 字典 dict
+## python 字典 dict
 
 key 必须是不可变的数据类型：int, string
 
@@ -75,7 +73,7 @@ key 必须是不可变的数据类型：int, string
 快速返回值：d\[key\]
 
 * 如果没找到，会调用自定义的missing方法
-* ```py
+* ```python
   def __missing__(self, key):
       return 0
   ```
@@ -87,31 +85,30 @@ key存在否：d.\_\_contains\_\_\(key\)，存在返回 true，否则返回false
 
 遍历：items\(\)方法
 
-```py
+```python
 for k, v in dictName。items():
     print(k, v)
 ```
 
 元素个数：len\(\)
 
-### python 列表 list
+## python 列表 list
 
 range\(start, end, step\) 返回一个列表
 
 * 左闭右开
 * step 默认为1
-
 * 常用： `for i in range(1,10)` 1到9
 
 len\(\)：返回个数，有5个元素，下标到4，但返回5
 
 append\(\)：在末尾添加
 
-### numpy 矩阵类ndarray
+## numpy 矩阵类ndarray
 
 类的名字是ndarray，其中有一个方法叫array（代替构造函数）
 
-```py
+```python
 import numpy as np
 a = np.array([1，2，3])
 ```
@@ -119,7 +116,6 @@ a = np.array([1，2，3])
 参数是一个列表
 
 * 向量：a = array\(\[1, 2, 3\]\)
-
 * 矩阵：b = array\(\[ \[1, 2, 3\], \[3, 2, 1\] \]\)
 
 限定数据类型：a = np.array\(\[1,2\], np.int\)
@@ -130,6 +126,4 @@ a = np.array([1，2，3])
 
 * 一行元素的个数：np.size\(a, 0\)
 * 一列元素的个数：np.size\(a, 1\)
-
-
 

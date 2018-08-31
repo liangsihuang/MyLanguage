@@ -1,15 +1,15 @@
+# inheritance
+
 为什么类的初始化，两边类型不同？public 继承的赋值兼容规则
 
 `LinearSOE * theSOE = new BandSPDLinSOE( * theSolver);`
 
-### C++ inheritance and derived class
+## C++ inheritance and derived class
 
 默认是 public 继承 `class DeriveClassName : public BaseClassName {}`
 
 * 派生类的对象可以赋值给基类对象！实现多态的一个关键！
-
 * 派生类对象可以初始化基类引用
-
 * 派生类对象的地址可以赋值给基类指针
 
 派生类拥有基类的所有成员变量和函数（无论 private, protected, public）
@@ -21,7 +21,7 @@
 
 * `BaseClassName:: Func`
 
-### C++ polymorphism
+## C++ polymorphism
 
 多态的实现：虚函数
 
@@ -35,7 +35,7 @@
 
 python 没有静态类型检查，也就没有虚函数，没有多态
 
-### python inheritance
+## python inheritance
 
 python 的继承只是代码重用，不是多态
 
@@ -50,7 +50,7 @@ python 的继承只是代码重用，不是多态
 * 推荐使用 super\(\)，一是父类名改变也无需修改，二是不用显示传递self
 * 但是，多继承下只能用父类名来区分不同父类的构造函数，要显示传递self！
 
-### 多继承
+## 多继承
 
 C++ 和 python 都支持
 
