@@ -23,7 +23,12 @@
 
 提供非常有限的重载
 
-索引 \[\] : \_\__getitem\_\_\(self, key\)_
+```py
+# 索引 [] 
+ __getitem__(self, key)
+# 索引赋值[] = 
+__setitem__ (self,  key, value)
+```
 
-索引赋值 \[\] = : \_\__setitem\_\_ \(self,  key, value\)_
+
 
