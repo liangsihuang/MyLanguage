@@ -92,6 +92,8 @@ for k, v in dictName。items():
 
 元素个数：len\(\)
 
+删除元素：pop\(key\)，返回对应的 value
+
 ## python 列表 list
 
 range\(start, end, step\) 返回一个列表
@@ -128,6 +130,4 @@ a = np.array([1，2，3])
 * 一列元素的个数：np.size\(a, 1\)
 
 可以切片：左闭右开。 全选：x\[:\]
-
-
 
