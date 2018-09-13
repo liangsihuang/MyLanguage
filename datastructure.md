@@ -86,7 +86,7 @@ key存在否：d.\_\_contains\_\_\(key\)，存在返回 true，否则返回false
 遍历：items\(\)方法
 
 ```python
-for k, v in dictName。items():
+for k, v in dictName.items():
     print(k, v)
 ```
 
